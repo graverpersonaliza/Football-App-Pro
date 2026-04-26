@@ -1,0 +1,10 @@
+Football App V7 - Correção senha admin gerada pelo Desenvolvedor
+
+Correção aplicada:
+- A senha gerada ao criar sala de teste agora é gravada nos campos corretos adminPassHash/adminPassSalt.
+- Salas criadas na V6 com senha gerada em passwordHash/passwordSalt passam a aceitar essa mesma senha e são migradas automaticamente ao primeiro login admin correto.
+- A função de trocar senha admin pelo painel do Desenvolvedor também foi corrigida para gravar em adminPassHash/adminPassSalt.
+- admin123 continua funcionando somente para salas antigas/sem senha segura.
+
+Publicar:
+firebase deploy --project football-app-pro --only hosting,functions,firestore:rules

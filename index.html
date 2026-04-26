@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <title>Football App</title>
+  <meta name="description" content="Football App: organize futebol, peladas e jogos semanais com presença, posições, ranking e histórico." />
+  <meta name="theme-color" content="#111827" />
+  <link rel="manifest" href="manifest.json" />
+  <link rel="apple-touch-icon" href="icon-192.png" />
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-950 text-white">
+  <header class="border-b border-white/10 bg-slate-950/95">
+    <div class="mx-auto flex max-w-6xl items-center justify-between px-4 py-4">
+      <div class="flex items-center gap-3">
+        <div class="grid h-10 w-10 place-items-center rounded-2xl bg-emerald-500 text-xl font-black">⚽</div>
+        <div>
+          <div class="text-lg font-black leading-tight">Football App</div>
+          <div class="text-xs text-slate-400">Organização inteligente para futebol</div>
+        </div>
+      </div>
+      <nav class="hidden items-center gap-6 text-sm text-slate-300 sm:flex">
+        <a href="#recursos" class="hover:text-white">Recursos</a>
+        <a href="#precos" class="hover:text-white">Preços</a>
+        <a href="app.html" class="rounded-xl bg-emerald-500 px-4 py-2 font-bold text-slate-950 hover:bg-emerald-400">Abrir App</a>
+      </nav>
+      <a href="app.html" class="rounded-xl bg-emerald-500 px-4 py-2 text-sm font-bold text-slate-950 hover:bg-emerald-400 sm:hidden">Abrir</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="mx-auto grid max-w-6xl gap-10 px-4 py-16 sm:py-20 lg:grid-cols-2 lg:items-center">
+      <div>
+        <div class="inline-flex rounded-full border border-emerald-400/30 bg-emerald-400/10 px-4 py-2 text-sm font-bold text-emerald-200">Para futebol, society, peladas, escolinhas e jogos semanais</div>
+        <h1 class="mt-6 text-4xl font-black tracking-tight sm:text-6xl">Organize jogos de futebol com presença, escalação e equilíbrio em poucos cliques.</h1>
+        <p class="mt-5 text-lg leading-8 text-slate-300">O Football App centraliza cadastro de atletas, presença, montagem dos times, posições do futebol, notas, ranking e compartilhamento da escalação em um só lugar.</p>
+        <div class="mt-8 flex flex-col gap-3 sm:flex-row">
+          <a href="app.html" class="rounded-2xl bg-emerald-500 px-6 py-4 text-center font-black text-slate-950 shadow-lg hover:bg-emerald-400">Abrir Football App</a>
+          <a href="#recursos" class="rounded-2xl border border-white/15 px-6 py-4 text-center font-bold text-white hover:bg-white/10">Ver recursos</a>
+        </div>
+      </div>
+
+      <div class="rounded-[2rem] border border-white/10 bg-white/5 p-5 shadow-2xl">
+        <div class="rounded-[1.5rem] bg-slate-900 p-5">
+          <div class="flex items-center justify-between">
+            <div>
+              <div class="text-sm text-slate-400">Sala ativa</div>
+              <div class="text-2xl font-black">Jogo de sábado</div>
+            </div>
+            <span class="rounded-full bg-emerald-500/15 px-3 py-1 text-xs font-black text-emerald-200">INSCRIÇÃO ABERTA</span>
+          </div>
+          <div class="mt-6 grid gap-3 sm:grid-cols-2">
+            <div class="rounded-2xl bg-blue-500/15 p-4"><div class="text-sm text-blue-200">Time 1</div><div class="mt-2 text-3xl font-black">Escalado</div></div>
+            <div class="rounded-2xl bg-orange-500/15 p-4"><div class="text-sm text-orange-200">Time 2</div><div class="mt-2 text-3xl font-black">Escalado</div></div>
+            <div class="rounded-2xl bg-white/10 p-4"><div class="text-sm text-slate-300">Lista de espera</div><div class="mt-2 text-3xl font-black">+3</div></div>
+            <div class="rounded-2xl bg-white/10 p-4"><div class="text-sm text-slate-300">Posições</div><div class="mt-2 text-sm text-slate-200">Goleiro · Zagueiro · Lateral · Volante · Meia · Atacante</div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="recursos" class="bg-white py-16 text-slate-950 sm:py-20">
+      <div class="mx-auto max-w-6xl px-4">
+        <div class="text-center"><p class="font-black uppercase tracking-[0.25em] text-emerald-600">Recursos</p><h2 class="mt-3 text-3xl font-black sm:text-4xl">Tudo para organizar futebol com rapidez</h2><p class="mx-auto mt-3 max-w-2xl text-slate-600">Fluxo pensado para peladas, futebol society, campo, grupos fixos, jogos semanais e escolinhas.</p></div>
+        <div class="mt-10 grid gap-4 md:grid-cols-3">
+          <div class="rounded-3xl border bg-slate-50 p-6"><h3 class="text-xl font-black">Times organizados</h3><p class="mt-3 text-slate-600">Monte os dois lados da partida, controle presença e mantenha jogadores extras em lista de espera.</p></div>
+          <div class="rounded-3xl border bg-slate-50 p-6"><h3 class="text-xl font-black">Posições do futebol</h3><p class="mt-3 text-slate-600">Cadastro por função: Goleiro, Zagueiro, Lateral, Volante, Meia e Atacante.</p></div>
+          <div class="rounded-3xl border bg-slate-50 p-6"><h3 class="text-xl font-black">Equilíbrio por nota</h3><p class="mt-3 text-slate-600">Notas e posições ajudam a evitar um time muito forte contra outro muito fraco.</p></div>
+          <div class="rounded-3xl border bg-slate-50 p-6"><h3 class="text-xl font-black">Presença por rodada</h3><p class="mt-3 text-slate-600">Confirmação de presença, escolha de time, local, data e horário do jogo.</p></div>
+          <div class="rounded-3xl border bg-slate-50 p-6"><h3 class="text-xl font-black">Admin e jogadores</h3><p class="mt-3 text-slate-600">Admin cria a sala, cadastra jogadores e controla a organização; jogadores acessam com senha própria.</p></div>
+          <div class="rounded-3xl border bg-slate-50 p-6"><h3 class="text-xl font-black">Compartilhamento</h3><p class="mt-3 text-slate-600">Copie a escalação, envie por WhatsApp e gere imagem dos times para o grupo.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="precos" class="bg-slate-100 py-16 text-slate-950 sm:py-20">
+      <div class="mx-auto max-w-6xl px-4">
+        <div class="text-center"><p class="font-black uppercase tracking-[0.25em] text-emerald-600">Preços</p><h2 class="mt-3 text-3xl font-black sm:text-4xl">Valores</h2><p class="mx-auto mt-3 max-w-2xl text-slate-600">Planos pensados para grupos pequenos, jogos semanais e organizações maiores de futebol.</p></div>
+        <div class="mt-10 grid gap-5 md:grid-cols-3">
+          <div class="rounded-3xl border bg-white p-6 shadow-sm"><h3 class="text-2xl font-black">Free</h3><p class="mt-2 text-slate-600">Para teste inicial.</p><div class="mt-6 text-3xl font-black">R$ 0</div><div class="mt-1 text-sm text-slate-500">acesso básico</div><ul class="mt-6 space-y-3 text-sm text-slate-700"><li>✓ 1 sala</li><li>✓ Organização dos times</li><li>✓ Cadastro, presença e escalação</li></ul></div>
+          <div class="rounded-3xl border-2 border-emerald-500 bg-white p-6 shadow-xl"><div class="inline-flex rounded-full bg-emerald-100 px-3 py-1 text-xs font-black text-emerald-700">Mais indicado</div><h3 class="mt-3 text-2xl font-black">Básico</h3><p class="mt-2 text-slate-600">Para grupos semanais.</p><div class="mt-6 text-3xl font-black">R$ 19,90</div><div class="mt-1 text-sm text-slate-500">por mês</div><ul class="mt-6 space-y-3 text-sm text-slate-700"><li>✓ Até 3 grupos</li><li>✓ Histórico de jogos</li><li>✓ Ranking por avaliações</li></ul></div>
+          <div class="rounded-3xl border bg-slate-950 p-6 text-white shadow-sm"><h3 class="text-2xl font-black">PRO</h3><p class="mt-2 text-slate-300">Para organização avançada.</p><div class="mt-6 text-3xl font-black">R$ 39,90</div><div class="mt-1 text-sm text-slate-400">por mês</div><ul class="mt-6 space-y-3 text-sm text-slate-200"><li>✓ Grupos avançados</li><li>✓ Relatórios e estatísticas</li><li>✓ Personalização do grupo</li></ul></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="border-t border-white/10 px-4 py-8 text-center text-sm text-slate-400">Football App · Organização inteligente para futebol</footer>
+  <script src="pwa-install.js?v=20260425v9"></script>
+</body>
+</html>

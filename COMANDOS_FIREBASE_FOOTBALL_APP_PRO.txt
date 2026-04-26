@@ -1,0 +1,12 @@
+cd "D:\CRIAÇÃO DE SITES HTML JAVA\FUTEBOL APP\football_app_pro_comercial_firebase\manchette_futebol_firebase_somente"
+
+firebase use
+
+cd functions
+npm install
+cd ..
+
+firebase deploy --only hosting,functions,firestore:rules
+
+# Se quiser publicar só a landing/app depois de pequenos ajustes:
+firebase deploy --only hosting

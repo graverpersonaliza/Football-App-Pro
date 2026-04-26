@@ -1,0 +1,5 @@
+Ajuste V9:
+- Removidas menções numéricas de formação da landing.
+- Landing mantém linguagem de futebol sem explicar o óbvio.
+- Mantida lógica interna de limite por time no app.
+- Atualizado cache PWA para V9.

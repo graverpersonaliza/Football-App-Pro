@@ -1,0 +1,15 @@
+Arquivos antigos do vôlei que você pode apagar da pasta antiga, se ainda existirem:
+
+- script_0.js
+- manifest-futebol.json
+- Landing.html
+- MANUAL-ADMIN.md
+- MANUAL-DESENVOLVEDOR.md
+- ARQUITETURA.md
+- CHANGELOG.md
+- DEPLOY-GITHUB-FIREBASE.md
+- SECURITY.md
+
+Observação:
+Se você copiar este pacote por cima da pasta antiga, o futebol funcionará pelo index.html.
+Os arquivos antigos não usados podem permanecer, mas apagar deixa a pasta mais limpa.

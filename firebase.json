@@ -1,0 +1,62 @@
+{
+  "firestore": {
+    "rules": "firestore.rules"
+  },
+  "functions": {
+    "source": "functions"
+  },
+  "hosting": {
+    "public": ".",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**",
+      "functions/**",
+      "*.zip",
+      "README.md",
+      "SECURITY.md",
+      "ARQUITETURA.md",
+      "CHANGELOG.md",
+      "DEPLOY-GITHUB-FIREBASE.md",
+      "MANUAL-ADMIN.md",
+      "MANUAL-DESENVOLVEDOR.md",
+      "APAGAR_ARQUIVOS_ANTIGOS_DO_VOLEI.txt",
+      "index.js",
+      "package.json",
+      "package-lock.json",
+      "script_0.js",
+      "manifest-futebol.json",
+      "Landing.html"
+    ],
+    "rewrites": [
+      {
+        "source": "/app",
+        "destination": "/app.html"
+      },
+      {
+        "source": "/app/**",
+        "destination": "/app.html"
+      },
+      {
+        "source": "/futebol",
+        "destination": "/app.html"
+      },
+      {
+        "source": "/futebol/**",
+        "destination": "/app.html"
+      },
+      {
+        "source": "/football",
+        "destination": "/app.html"
+      },
+      {
+        "source": "/football/**",
+        "destination": "/app.html"
+      },
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}

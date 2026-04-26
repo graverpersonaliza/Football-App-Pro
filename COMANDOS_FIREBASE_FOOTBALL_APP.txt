@@ -1,0 +1,5 @@
+PowerShell:
+
+cd "D:\CRIAÇÃO DE SITES HTML JAVA\FUTEBOL APP\football_app_limpo_corrigido_firebase\manchette_futebol_firebase_somente"
+
+firebase deploy --project football-app-pro --only hosting,functions,firestore:rules

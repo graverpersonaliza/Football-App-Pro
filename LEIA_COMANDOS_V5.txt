@@ -1,0 +1,22 @@
+FOOTBALL APP V5 - PAINEL DO DESENVOLVEDOR RESTAURADO
+
+1) No Firebase Console, no projeto football-app-pro, ative:
+Authentication > Sign-in method > Anonymous > Enable > Save
+
+2) Publique pelo PowerShell:
+cd "D:\CRIAÇÃO DE SITES HTML JAVA\FUTEBOL APP\football_app_v5_dev_panel_ok"
+firebase deploy --project football-app-pro --only hosting,firestore:rules
+
+3) Se precisar atualizar Functions:
+cd functions
+npm install
+cd ..
+firebase deploy --project football-app-pro --only functions
+
+4) Limpe cache/PWA após publicar:
+F12 > Application > Service Workers > Unregister
+Application > Storage > Clear site data
+Ctrl + F5
+
+Link principal:
+https://football-app-pro.web.app/app

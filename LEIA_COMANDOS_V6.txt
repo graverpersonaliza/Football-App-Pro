@@ -1,0 +1,25 @@
+Football App V6 - correção
+
+Correções:
+- Corrigido erro JavaScript: createRoom is not defined.
+- Mantida aba Desenvolvedor.
+- Mantido futebol com 12 jogadores por time.
+- Senha do Desenvolvedor continua em functions/.env.
+
+Senha padrão do Desenvolvedor neste pacote:
+troque-esta-senha-forte
+
+Senha Admin padrão:
+admin123
+
+Publicar site e regras:
+firebase deploy --project football-app-pro --only hosting,firestore:rules
+
+Publicar Functions depois de instalar dependências:
+cd functions
+npm install
+cd ..
+firebase deploy --project football-app-pro --only functions
+
+Publicar tudo:
+firebase deploy --project football-app-pro --only hosting,functions,firestore:rules
